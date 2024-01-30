@@ -1,0 +1,25 @@
+{
+  "name": "color-clock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Hello World!'",
+    "start": "serve",
+    "build": "esbuild index.js --bundle --outfile=dist/out.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geekissh/react-hooks-npm-lab.git"
+  },
+  "author": "Mark Kelsall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geekissh/react-hooks-npm-lab/issues"
+  },
+  "homepage": "https://github.com/geekissh/react-hooks-npm-lab#readme",
+  "devDependencies": {
+    "esbuild": "^0.16.8",
+    "serve": "^14.2.1"
+  }
+}
